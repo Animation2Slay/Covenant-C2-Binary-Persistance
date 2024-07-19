@@ -1,2 +1,4 @@
 # Covenant-C2-Binary-Persistance
-This is a short script that I made. It disguises itself as an asset loader for a game (which actually does launch), but secretly fully disables Windows Defender, runs the Covenant C2 Binary exe in minimized mode, adds some stuff to startup which will then run the script all over again (but shorter) and makes the exe file a system file!
+This is a short script that I made. It disguises itself as an asset loader for a game (which actually does launch), but secretly fully disables Windows Defender, runs the Covenant C2 Binary exe in minimized mode, adds some stuff to startup which will then run the script all over again (but shorter) and, as a cherry on top, makes the exe file into a system file using NSSM, meaning that the exe cannot be removed no matter what. An additional feature of this script is that it makes itelf always run as administrator, so that all the commands are executed properly, all while looking like a harmless asset loader. 
+
+The Assets folder has all of the other batch files as well as NSSM and the actual game. The Readme.txt file within the zip explains some more, so hey, enjoy my flawless code!
